@@ -1,0 +1,12 @@
+# trainway.yaml (exemple simplifié)
+agent:
+  name: loulou-poemes
+  runtime: python3.10
+  schedule: "0 9 * * *"  # Tous les jours à 9h
+  env:
+    - MISTRAL_API_KEY
+    - SUPABASE_URL
+    - SUPABASE_KEY
+    - EMAIL_SENDER
+    - EMAIL_PASSWORD
+    - EMAIL_RECIPIENT
